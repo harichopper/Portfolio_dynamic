@@ -12,6 +12,27 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.contact-form {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.contact-wrapper {
+  min-height: 100vh;
+  padding: 2rem 1rem; /* optional light background */
+}
+
+textarea.form-control {
+  resize: none;
+}
+
+@media (max-width: 576px) {
+  .contact-wrapper {
+    padding: 2rem 0.5rem;
+  }
+}
+
 
 .App-header {
   background-color: #282c34;
