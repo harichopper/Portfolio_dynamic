@@ -20,18 +20,18 @@
 
 <h3 align="center">
     🔹
-    <a href="https://github.com/harichopper/portfolio/issues">Report Bug</a> &nbsp; &nbsp;
+    <a href="https://github.com/harichopper/Portfolio_dynamic/issues">Report Bug</a> &nbsp; &nbsp;
     🔹
-    <a href="https://github.com/harichopper/portfolio/issues">Request Feature</a>
+    <a href="https://github.com/harichopper/Portfolio_dynamic/issues">Request Feature</a>
 </h3>
 
 ## TL;DR
 
-You can fork this repo to modify and make changes of your own. Please give proper credit by linking back to [harichopper](https://github.com/harichopper/portfolio). Thanks!
+You can fork this repo to modify and make changes of your own. Please give proper credit by linking back to [harichopper](https://github.com/harichopper/Portfolio_dynamic). Thanks!
 
 ## Built With
 
-My personal portfolio [haricdon.vercel.app](https://haricdon.vercel.app/) features some of my GitHub projects, resume, and technical skills.
+My personal portfolio [haricdon.vercel.app](https://haric-portfolio.vercel.app/) features some of my GitHub projects, resume, and technical skills.
 
 This project was built using the following technologies:
 
@@ -58,7 +58,9 @@ Clone this repository. You’ll need `node.js` and `git` installed globally on y
    ```bash
    npm install
 
-npm start
+2. Start app:
+  ``` bash 
+    npm start 
 
 
 ---
