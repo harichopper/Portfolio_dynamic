@@ -61,11 +61,10 @@ Clone this repository. You’ll need `node.js` and `git` installed globally on y
 2. Start app:
   ``` bash 
     npm start 
-
-
----
-
+```
+```bash
 Let me know if you’d like to:
 - Change the Buy Me a Coffee username.
 - Add your own screenshot.
 - Convert this to a minimal one-page version.
+```
