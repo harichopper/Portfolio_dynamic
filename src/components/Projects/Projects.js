@@ -22,6 +22,7 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
@@ -54,7 +55,7 @@ BMI Buddy is a sleek, user-friendly web application that calculates your Body Ma
               description="💬 ChillChat – Real-Time Web Messenger
 ChillChat is a modern, full-stack real-time chat application designed to provide seamless messaging between users. Inspired by platforms like WhatsApp and Messenger, ChillChat offers a clean UI, real-time communication, and cloud-based media sharing — making chatting smooth and interactive."
               ghLink="https://github.com/harichopper/chill-chat"
-              demoLink="https://chill-chat-9do2.onrender.com/login"              
+              demoLink="https://chill-chat-9do2.onrender.com/login"
             />
           </Col>
 
@@ -78,7 +79,7 @@ The Animated Music Player is a sleek and visually engaging web-based audio playe
               description="🔍 AI Search Box – Intelligent Query Assistant
 The AI Search Box is a smart, real-time search interface powered by AI that enhances user interaction with predictive suggestions, contextual understanding, and dynamic query handling. It mimics the experience of interacting with an intelligent assistant, helping users find content or perform actions with minimal input."
               ghLink="https://github.com/harichopper/Ai-Search-Box"
-               demoLink="https://ai-searchbox.netlify.app/"
+              demoLink="https://ai-searchbox.netlify.app/"
             />
           </Col>
 
@@ -90,22 +91,21 @@ The AI Search Box is a smart, real-time search interface powered by AI that enha
               description="🧩 Rubik’s Cube – 3D Interactive Puzzle Simulator
 The Rubik’s Cube project is a dynamic, interactive 3D simulation of the classic puzzle game. It allows users to rotate, twist, and solve a virtual Rubik’s Cube using intuitive controls and smooth animations. Designed for both fun and education, the simulator demonstrates the logic and complexity behind one of the world’s most iconic brain teasers."
               ghLink="https://github.com/harichopper/Rubik-s-cube"
-              demoLink="https://3d-rubix-cube.netlify.app/"    
+              demoLink="https://3d-rubix-cube.netlify.app/"
             />
           </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={pcbuilder} // 👉 replace with your PC builder project image
+              imgPath={pcbuilder}
               isBlog={false}
               title="PC-Suggestion"
               description="💻 Smart PC Builder is a web app that helps users choose compatible PC parts based on budget and performance. It supports different tiers (budget, mid-range, high-end), checks compatibility, and calculates total cost dynamically."
               ghLink="https://github.com/harichopper/Smart-PC-Builder"
-              demoLink="https://smart-pc-builder-kappa.vercel.app/" // 👉 replace with your deployed link
+              demoLink="https://smart-pc-builder-kappa.vercel.app/"
             />
           </Col>
-    
-            />
-          </Col>
+
         </Row>
       </Container>
     </Container>
