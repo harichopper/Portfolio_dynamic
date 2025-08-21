@@ -8,6 +8,7 @@ import editor from "../../Assets/Projects/chill.png";
 import chatify from "../../Assets/Projects/aura.png";
 import suicide from "../../Assets/Projects/ai.png";
 import bitsOfCode from "../../Assets/Projects/bmi.png";
+import pcbuilder from "../../Assets/Projects/image.png";
 
 function Projects() {
   return (
