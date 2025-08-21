@@ -92,6 +92,19 @@ The Rubik’s Cube project is a dynamic, interactive 3D simulation of the classi
               demoLink="https://3d-rubix-cube.netlify.app/"    
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={pcbuilder} // 👉 replace with your PC builder project image
+              isBlog={false}
+              title="PC-Suggestion"
+              description="💻 Smart PC Builder is a web app that helps users choose compatible PC parts based on budget and performance. It supports different tiers (budget, mid-range, high-end), checks compatibility, and calculates total cost dynamically."
+              ghLink="https://github.com/harichopper/Smart-PC-Builder"
+              demoLink="https://smart-pc-builder-kappa.vercel.app/" // 👉 replace with your deployed link
+            />
+          </Col>
+    
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
