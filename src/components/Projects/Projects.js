@@ -8,8 +8,6 @@ import editor from "../../Assets/Projects/chill.png";
 import chatify from "../../Assets/Projects/aura.png";
 import suicide from "../../Assets/Projects/ai.png";
 import bitsOfCode from "../../Assets/Projects/bmi.png";
-import pcbuilder from "../../Assets/Projects/image.png";
-import meetingcost from "../../Assets/Projects/meet.png"; // 👉 add your MeetingCost Pro image
 
 function Projects() {
   return (
@@ -95,30 +93,6 @@ The Rubik’s Cube project is a dynamic, interactive 3D simulation of the classi
               demoLink="https://3d-rubix-cube.netlify.app/"
             />
           </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={pcbuilder}
-              isBlog={false}
-              title="PC-Suggestion"
-              description="💻 Smart PC Builder is a web app that helps users choose compatible PC parts based on budget and performance. It supports different tiers (budget, mid-range, high-end), checks compatibility, and calculates total cost dynamically."
-              ghLink="https://github.com/harichopper/Smart-PC-Builder"
-              demoLink="https://smart-pc-builder-kappa.vercel.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={meetingcost}
-              isBlog={false}
-              title="MeetingCost Pro"
-              description="📊 MeetingCost Pro – Stop Wasting Money on Expensive Meetings
-MeetingCost Pro helps teams calculate the true cost of meetings in real time. With support for 20+ currencies, analytics dashboards, and budget optimization tools, it enables organizations to save both time and money while improving productivity."
-              ghLink="https://github.com/harichopper/MeetingCost-Pro"
-              demoLink="https://meetingcost-pro-07a3.netlify.app/"
-            />
-          </Col>
-
         </Row>
       </Container>
     </Container>
