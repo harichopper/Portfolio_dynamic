@@ -8,6 +8,8 @@ import editor from "../../Assets/Projects/chill.png";
 import chatify from "../../Assets/Projects/aura.png";
 import suicide from "../../Assets/Projects/ai.png";
 import bitsOfCode from "../../Assets/Projects/bmi.png";
+import auction from "../../Assets/Projects/s-2.png";  // add your ARTA project image
+import resume from "../../Assets/Projects/resume.png";   // add your Resume Builder project image
 
 function Projects() {
   return (
@@ -53,7 +55,7 @@ BMI Buddy is a sleek, user-friendly web application that calculates your Body Ma
               description="💬 ChillChat – Real-Time Web Messenger
 ChillChat is a modern, full-stack real-time chat application designed to provide seamless messaging between users. Inspired by platforms like WhatsApp and Messenger, ChillChat offers a clean UI, real-time communication, and cloud-based media sharing — making chatting smooth and interactive."
               ghLink="https://github.com/harichopper/chill-chat"
-              demoLink="https://chill-chat-9do2.onrender.com/login"              
+              demoLink="https://chill-chat-9do2.onrender.com/login"
             />
           </Col>
 
@@ -77,7 +79,7 @@ The Animated Music Player is a sleek and visually engaging web-based audio playe
               description="🔍 AI Search Box – Intelligent Query Assistant
 The AI Search Box is a smart, real-time search interface powered by AI that enhances user interaction with predictive suggestions, contextual understanding, and dynamic query handling. It mimics the experience of interacting with an intelligent assistant, helping users find content or perform actions with minimal input."
               ghLink="https://github.com/harichopper/Ai-Search-Box"
-               demoLink="https://ai-searchbox.netlify.app/"
+              demoLink="https://ai-searchbox.netlify.app/"
             />
           </Col>
 
@@ -89,7 +91,31 @@ The AI Search Box is a smart, real-time search interface powered by AI that enha
               description="🧩 Rubik’s Cube – 3D Interactive Puzzle Simulator
 The Rubik’s Cube project is a dynamic, interactive 3D simulation of the classic puzzle game. It allows users to rotate, twist, and solve a virtual Rubik’s Cube using intuitive controls and smooth animations. Designed for both fun and education, the simulator demonstrates the logic and complexity behind one of the world’s most iconic brain teasers."
               ghLink="https://github.com/harichopper/Rubik-s-cube"
-              demoLink="https://3d-rubix-cube.netlify.app/"    
+              demoLink="https://3d-rubix-cube.netlify.app/"
+            />
+          </Col>
+
+          {/* New Project: ARTA - Avalanche Auction */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={auction}
+              isBlog={false}
+              title="ARTA – Avalanche Realtime Auction"
+              description="⚡ ARTA (Avalanche Realtime Auction) – Blockchain-powered realtime auction platform built on the Avalanche network. It ensures secure, transparent, and tamper-proof bidding using smart contracts, enabling decentralized auctions with real-time updates and trustless transactions."
+              ghLink="https://github.com/harichopper/ARTA"   // replace with your repo
+              demoLink="https://arta-frontend-three.vercel.app/"            // replace with your demo
+            />
+          </Col>
+
+          {/* New Project: Resume Builder */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={resume}
+              isBlog={false}
+              title="Resume Builder"
+              description="📄 Resume Builder – Professional resume creation web app where users can input details and generate customizable, elegant resumes instantly. It supports live preview, export to PDF, and multiple templates for a smooth job application experience."
+              ghLink="https://github.com/harichopper/resume-manage" // replace with your repo
+              demoLink="https://resume-manage-cwxs.vercel.app/"     // replace with your demo
             />
           </Col>
         </Row>
