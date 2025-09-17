@@ -12,6 +12,8 @@ import suicide from "../../Assets/Projects/ai.png";
 import bitsOfCode from "../../Assets/Projects/bmi.png";
 import auction from "../../Assets/Projects/s-2.png";  // add your ARTA project image
 import resume from "../../Assets/Projects/resume.png";   // add your Resume Builder project image
+import pcbuilder from "../../Assets/Projects/image.png"; // ✅ Added import
+import meetingcost from "../../Assets/Projects/meet.png"; // ✅ Added import
 
 function Projects() {
   return (
@@ -26,6 +28,7 @@ function Projects() {
         </p>
 
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          {/* AURA */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
@@ -103,27 +106,52 @@ An interactive 3D Rubik’s Cube simulator with rotation and solving controls."
             />
           </Col>
 
-          {/* New Project: ARTA - Avalanche Auction */}
+          {/* PC-Suggestion / Smart PC Builder */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={pcbuilder}
+              isBlog={false}
+              title="PC-Suggestion"
+              description="💻 Smart PC Builder – Choose compatible PC parts based on budget and performance. Supports tiers, compatibility checks and dynamic cost calculation."
+              ghLink="https://github.com/harichopper/Smart-PC-Builder"
+              demoLink="https://smart-pc-builder-kappa.vercel.app/"
+            />
+          </Col>
+
+          {/* MeetingCost Pro */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={meetingcost}
+              isBlog={false}
+              title="MeetingCost Pro"
+              description="📊 MeetingCost Pro – Stop Wasting Money on Expensive Meetings
+Calculates meeting costs in real time with currency support, analytics and optimization tools."
+              ghLink="https://github.com/harichopper/MeetingCost-Pro"
+              demoLink="https://meetingcost-pro-07a3.netlify.app/"
+            />
+          </Col>
+
+          {/* ARTA - Avalanche Realtime Auction */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={auction}
               isBlog={false}
               title="ARTA – Avalanche Realtime Auction"
-              description="⚡ ARTA (Avalanche Realtime Auction) – Blockchain-powered realtime auction platform built on the Avalanche network. It ensures secure, transparent, and tamper-proof bidding using smart contracts, enabling decentralized auctions with real-time updates and trustless transactions."
-              ghLink="https://github.com/harichopper/ARTA"   // replace with your repo
-              demoLink="https://arta-frontend-three.vercel.app/"            // replace with your demo
+              description="⚡ ARTA – Blockchain-powered realtime auction platform built on Avalanche. Secure, transparent bidding powered by smart contracts and realtime updates."
+              ghLink="https://github.com/harichopper/ARTA"
+              demoLink="https://arta-frontend-three.vercel.app/"
             />
           </Col>
 
-          {/* New Project: Resume Builder */}
+          {/* Resume Builder */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={resume}
               isBlog={false}
               title="Resume Builder"
-              description="📄 Resume Builder – Professional resume creation web app where users can input details and generate customizable, elegant resumes instantly. It supports live preview, export to PDF, and multiple templates for a smooth job application experience."
-              ghLink="https://github.com/harichopper/resume-manage" // replace with your repo
-              demoLink="https://resume-manage-cwxs.vercel.app/"     // replace with your demo
+              description="📄 Resume Builder – Create customizable resumes with live preview and export to PDF. Multiple templates included."
+              ghLink="https://github.com/harichopper/resume-manage"
+              demoLink="https://resume-manage-cwxs.vercel.app/"
             />
           </Col>
         </Row>
